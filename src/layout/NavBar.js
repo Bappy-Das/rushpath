@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-// import logo from '../../assets/ssp-logo.png'
-// import logowhite from '../../assets/ssp-logo-white.png'
+// import logo from '../assets/logo.jpg'
+import logo from '../assets/logo-removebg-preview.png'
 // import './Nav.css'
 
 const NavBar = () => {
@@ -28,35 +28,34 @@ const NavBar = () => {
 				:
 				"bg-coal bg-opacity-50 w-screen py-2 text-white body-font z-50 top-0 left-0 shadow-md transition duration-500 fixed"
 		}>
-			<header className='container px-12  mx-auto md:py-6'>
+			<header className='container px-12  mx-auto '>
 				<div className="container mx-auto flex justify-between items-center">
 					{/* ::Site logo and Name */}
 					<Link
 						to="/"
 						className="flex flex-shrink-0 title-font font-medium items-center text-gray-900 md:mb-0"
 					>
-                        Logo
-						{/* <img className='w-[70px] h-full transition duration-500' src={changeHeader?logowhite: logo} alt="" srcSet="" /> */}
+						<img className='h-[70px] transition duration-500' src={logo} alt="" srcSet="" />
 					</Link>
 
 					{/* ::Navbar */}
-					<nav className="hidden md:mr-auto uppercase md:ml-4 md:pl-4 md:flex flex-wrap items-center justify-end w-full text-sm font-normal tracking-wide">
-						<Link to="/" className="mr-8 hover:text-[#F5C11D]">
+					<nav className="hidden md:mr-auto capitalize md:ml-4 md:pl-4 md:flex flex-wrap items-center justify-end w-full text-md font-bold tracking-wide">
+						<Link to="/" className="mr-8 hover:text-[#F5C11D] transition-all duration-100">
 							Home
 						</Link>
-						<Link to="/packages" className="mr-8 hover:text-[#F5C11D]">
+						<Link to="/packages" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
 							Services
 						</Link>
-						<Link to="/team" className="mr-8 hover:text-[#F5C11D]">
+						<Link to="/team" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
 							Technologies
 						</Link>
-						<Link to="/contact" className="mr-8 hover:text-[#F5C11D]">
+						<Link to="/contact" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
 							Projects
 						</Link>
-						<Link to="/contact" className="mr-8 hover:text-[#F5C11D]">
+						<Link to="/contact" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
 							About
 						</Link>
-						<Link to="/contact" className="mr-8 hover:text-[#F5C11D]">
+						<Link to="/contact" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
 							Contact
 						</Link>
 					</nav>
