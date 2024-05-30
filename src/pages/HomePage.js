@@ -1,13 +1,12 @@
 import React from 'react';
 import HeroSection from '../components/HeroSection';
+import ContactSection from '../components/ContactSection';
 
 const HomePage = () => {
     return (
         <>
-        <HeroSection></HeroSection>
-            {/* <div className="bg-blue-500 text-white">
-              <h1 className="text-2xl">Hello, Tailwind CSS!</h1>
-            </div> */}
+            <HeroSection></HeroSection>
+            <ContactSection></ContactSection>
         </>
     );
 };
