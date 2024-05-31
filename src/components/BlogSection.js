@@ -7,8 +7,8 @@ import { RxAvatar } from "react-icons/rx";
 
 const BlogSection = () => {
     return (
-        <div className='bg-white'>
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 md:py-20 lg:py-20">
+        <div className='bg-gray-100 pb-20'>
+            <div className="mx-auto w-full max-w-screen-xl p-4 py-6">
                 <div className="grid grid-cols-1 md:grid-cols-3 lg:grid-cols-3 py-8 lg:py-8">
                     <div className="text-[#eef2f4] rounded-md">
                         <div class="max-w-sm bg-white border border-gray-200 shadow">

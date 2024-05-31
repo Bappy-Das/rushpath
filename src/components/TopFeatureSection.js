@@ -4,7 +4,7 @@ import box2 from "../assets/box-2-bg.jpg"
 const TopFeatureSection = () => {
     return (
         <div className='bg-white'>
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6">
+            <div className="mx-auto w-full max-w-screen-xl p-4 pb-20">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3">
                     <div className='bg-slate-600 bg-cover rounded-md relative object-cover w-full min-h-fit bg-center md:pb-0' style={{ backgroundImage: `url(${box2})`,backgroundPosition: "center center",backgroundSize: "auto" }}>
                         <div className='flex flex-col px-8 py-12'>

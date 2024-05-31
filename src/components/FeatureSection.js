@@ -4,7 +4,7 @@ import blog1 from "../assets/me-cover-384x488.jpg"
 const FeatureSection = () => {
     return (
         <div className='bg-white'>
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 md:py-20 lg:py-20">
+            <div className="mx-auto w-full max-w-screen-xl p-4 pb-20">
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-3 lg:grid-cols-3 py-8 lg:py-8">
                     <div>
                         <div className="group relative flex justify-center m-3">
