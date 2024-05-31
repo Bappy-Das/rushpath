@@ -5,8 +5,6 @@ import blog3 from "../assets/post-1-560x370.jpg"
 import { FaRegClock } from "react-icons/fa";
 import { RxAvatar } from "react-icons/rx";
 
-
-
 const BlogSection = () => {
     return (
         <div className='bg-white'>
