@@ -43,16 +43,16 @@ const NavBar = () => {
 						<Link to="/" className="mr-8 hover:text-[#F5C11D] transition-all duration-100">
 							Home
 						</Link>
-						<Link to="/packages" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
-							Services
+						<Link to="/games" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
+							All Games
 						</Link>
-						<Link to="/team" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
-							Technologies
-						</Link>
-						<Link to="/contact" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
+						<Link to="/project" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
 							Projects
 						</Link>
-						<Link to="/contact" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
+						<Link to="/blog" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
+							Blog
+						</Link>
+						<Link to="/about" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
 							About
 						</Link>
 						<Link to="/contact" className="mr-8 hover:text-[#F5C11D] transition-all duration-300">
@@ -89,16 +89,16 @@ const NavBar = () => {
 					<Link to="/" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
 						Home
 					</Link>
-					<Link to="/gallery" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
-                        Services
+					<Link to="/games" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+						All Games
 					</Link>
-					<Link to="/packages" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
-                        Technologies
+					<Link to="/project" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+						Projects
 					</Link>
-					<Link to="/team" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
-                        Projects
+					<Link to="/blog" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+						Blog
 					</Link>
-					<Link to="/contact" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
+					<Link to="/about" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
                         About
 					</Link>
 					<Link to="/contact" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>

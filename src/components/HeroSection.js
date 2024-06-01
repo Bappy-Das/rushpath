@@ -41,7 +41,7 @@ const HeroSection = () => {
                     }}
                     effect={'fade'}
                 >
-                    <SwiperSlide className="pb-24 overflow-hidden">
+                    {/* <SwiperSlide className="pb-24 overflow-hidden">
                         {
                             <div className="relative object-cover w-full min-h-screen md:pb-0 pt-28 bg-cover"
                                     style={{ backgroundImage: `url(${banner})`,backgroundPosition: "center center" }}>
@@ -57,7 +57,7 @@ const HeroSection = () => {
                                 </div>
                             </div>
                         }
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                     <SwiperSlide className="pb-24 overflow-hidden">
                         {
                             <div className="relative object-cover w-full min-h-screen md:pb-0 pt-28 bg-cover"
@@ -75,7 +75,7 @@ const HeroSection = () => {
                             </div>
                         }
                     </SwiperSlide>
-                    <SwiperSlide className="pb-24 overflow-hidden">
+                    {/* <SwiperSlide className="pb-24 overflow-hidden">
                         {
                             <div className="relative object-cover w-full min-h-screen md:pb-0 pt-28 bg-cover"
                                     style={{ backgroundImage: `url(${wallpaperflare})`,backgroundPosition: "center center" }}>
@@ -91,7 +91,7 @@ const HeroSection = () => {
                                 </div>                   
                             </div>
                         }
-                    </SwiperSlide>
+                    </SwiperSlide> */}
                 </Swiper>
             </div>
         </section>

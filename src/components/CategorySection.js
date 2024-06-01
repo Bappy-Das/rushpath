@@ -7,7 +7,7 @@ import { FaTags } from "react-icons/fa";
 
 const CategorySection = () => {
     return (
-        <div className='bg-gray-100'>
+        <div className='bg-gray-100' id="games">
             <div className="mx-auto w-full max-w-screen-xl p-4 pb-20 ">
                 <div class="flex justify-center items-center pb-8">
                     <div class="mt-16 block grid-rows-2 place-items-center gap-4 md:grid-rows-1 lg:grid-rows-1">
