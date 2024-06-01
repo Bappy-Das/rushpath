@@ -20,7 +20,7 @@ const HomePage = () => {
             <h1 className="text-center bg-gray-100 pt-20 text-xl md:text-5xl lg:text-5xl  font-extrabold pb-10 uppercase">BLOG <span className='text-[#F5C11D]'>& NEWS</span></h1>
             <BlogSection></BlogSection>
             <AboutTheRushPathSection></AboutTheRushPathSection>
-            <h1 className="text-center bg-gray-100 pt-20 text-xl md:text-5xl lg:text-5xl  font-extrabold pb-10 uppercase">contact <span className='text-[#F5C11D]'> Us</span></h1>
+            <h1 className="text-center bg-white pt-20 text-xl md:text-5xl lg:text-5xl  font-extrabold pb-10 uppercase">contact <span className='text-[#F5C11D]'> Us</span></h1>
             <ContactSection></ContactSection>
         </>
     );
