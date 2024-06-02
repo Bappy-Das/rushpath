@@ -9,7 +9,7 @@ const CategorySection = () => {
     return (
         <div className='bg-gray-100' id="games">
             <div className="mx-auto w-full max-w-screen-xl p-4 pb-20 ">
-                <div class="flex justify-center items-center pb-8">
+                {/* <div class="flex justify-center items-center pb-8">
                     <div class="mt-16 block grid-rows-2 place-items-center gap-4 md:grid-rows-1 lg:grid-rows-1">
                         <button
                           type="button"
@@ -48,7 +48,7 @@ const CategorySection = () => {
                           xbox one
                         </button>
                     </div>
-                </div>
+                </div> */}
                 <div className="grid grid-cols-1 gap-4 md:grid-cols-4 lg:grid-cols-4 py-8 lg:py-8">
                     <div className="text-[#eef2f4] rounded-md">
                         <div class="max-w-sm bg-white">
