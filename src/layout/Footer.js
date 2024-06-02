@@ -18,7 +18,7 @@ const Footer = () => {
                             <div className='grid grid-cols-2 gap-5 pt-5'>
                                 <p className="hover:underline cursor-pointer hover:text-[#F5C11D] transition duration-200 flex items-center"> <MdOutlineArrowRight size={20}/> Home</p>
                                 <p className="hover:underline cursor-pointer hover:text-[#F5C11D] transition duration-200 flex items-center"> <MdOutlineArrowRight size={20}/> Services</p>
-                                <p className="hover:underline cursor-pointer hover:text-[#F5C11D] transition duration-200 flex items-center"> <MdOutlineArrowRight size={20}/> Technolies</p>
+                                <p className="hover:underline cursor-pointer hover:text-[#F5C11D] transition duration-200 flex items-center"> <MdOutlineArrowRight size={20}/> Technologies</p>
                                 <p className="hover:underline cursor-pointer hover:text-[#F5C11D] transition duration-200 flex items-center"> <MdOutlineArrowRight size={20}/> Projects</p>
                                 <p className="hover:underline cursor-pointer hover:text-[#F5C11D] transition duration-200 flex items-center"> <MdOutlineArrowRight size={20}/> About us</p>
                                 <p className="hover:underline cursor-pointer hover:text-[#F5C11D] transition duration-200 flex items-center"> <MdOutlineArrowRight size={20}/> Contact</p>
