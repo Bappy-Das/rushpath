@@ -1,5 +1,6 @@
 import React from 'react';
 import Breadcump from '../components/Breadcump';
+import AboutUsSection from '../components/AboutUsSection';
 
 
 const AboutPage = () => {
@@ -7,7 +8,7 @@ const AboutPage = () => {
         <div>
             <Breadcump title={"About Us"}></Breadcump>
             <div className='p-10'>
-                About us
+                <AboutUsSection></AboutUsSection>
             </div>
         </div>
     );

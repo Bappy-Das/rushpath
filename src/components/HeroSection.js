@@ -67,7 +67,7 @@ const HeroSection = () => {
           <div className="pt-24">
             <div className="mt-12 lg:mt-0">
               <h1 className="text-4xl text-center md:text-5xl xl:text-6xl font-bold tracking-tight mb-12 text-curious-blue-500">
-                Empowering Businesses via Innovative Software
+              <span className='text-[#F5C11D]'>Empowering Businesses</span> via Innovative Software
                 <br />
                 <p className="text-gray-800 text-center font-normal text-lg mt-7">
                     Lorem Ipsum is simply dummy text of the printing and typesetting industry.
