@@ -1,7 +1,7 @@
 import React, { useState } from 'react'
 import { Link } from 'react-router-dom'
-import logo from '../assets/logo.jpg'
-// import logo from '../assets/logo-removebg-preview.png'
+// import logo from '../assets/logo.jpg'
+import logo from '../assets/logo-removebg-preview.png'
 // import './Nav.css'
 
 const NavBar = () => {
@@ -107,7 +107,7 @@ const NavBar = () => {
 					</Link> */}
 					<Link to="/about" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
                         About
-					</Link>
+					</Link>+
 					<Link to="/contact" className="block px-3 py-2 rounded-md text-gray-300 hover:text-white hover:bg-gray-700" onClick={() => setIsOpen(false)}>
 						Contact
 					</Link>
