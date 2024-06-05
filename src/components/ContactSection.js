@@ -37,16 +37,11 @@ const ContactSection = () => {
 
                     </div>
                     <div className='w-full md:w-2/5 lg:w-2/5 ml-10'>
-                        <div className='flex items-center gap-3 mb-2 text-gray-700 font-semibold'> <FaLocationDot className='text-yellow-400' size={20}/> <p>Walking Street, Los Angeles, California, USA</p></div>
-                        <div className='flex items-center gap-3 mb-2 text-gray-700 font-semibold'> <MdEmail className='text-yellow-400' size={17}/> info@cloux.com</div>
-                        <div className='flex items-center gap-3 mb-2 text-gray-700 font-semibold'> <FaPhone className='text-yellow-400' size={17}/> 0674 987 66 59</div>
-                        <div className='flex items-center gap-3 mb-2 text-gray-700 font-semibold'> <TbDeviceLandlinePhone className='text-yellow-400' size={17}/> 1923 236 12 96</div>
-                        <p className='mt-5 font-semibold text-gray-700'>Lorem ipsum dolor sit amet, voluptua iracundia disputationi an pri, 
-                            his utinam principes dignissim ad. Ne nec dolore oblique nusquam, 
-                            cu luptatum volutpat delicatissimi has. Sed ad dicam platonem, 
-                            mea eros illum elitr id, ei has similique constituto. Ea movet 
-                            saperet rationibus sit, <span className='text-yellow-400'>pri autem aliquip invidunt</span> an consetetur 
-                            omittantur.</p>
+                        <div className='flex items-start gap-3 mb-2 text-gray-700 font-semibold'> <FaLocationDot className='text-yellow-400' size={20}/> <p>Address 3A, House 364, Road 27, <br/> DOHS Mohakhali,  Dhaka 1212</p></div>
+                        <div className='flex items-center gap-3 mb-2 text-gray-700 font-semibold'> <MdEmail className='text-yellow-400' size={17}/> info@rushpath.com</div>
+                        <div className='flex items-center gap-3 mb-2 text-gray-700 font-semibold'> <FaPhone className='text-yellow-400' size={17}/> ..........</div>
+                        <div className='flex items-center gap-3 mb-2 text-gray-700 font-semibold'> <TbDeviceLandlinePhone className='text-yellow-400' size={17}/> .........</div>
+                        
                     </div>
                 </div>
             </div>
