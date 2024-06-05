@@ -13,7 +13,7 @@ import { Autoplay ,EffectFade} from "swiper/modules";
 const HeroSection = () => {
     return (
         <section id="home" className="mb-20 ">
-      <div className="px-6 py-32 flex justify-center items-center md:px-12 bg-gradient-to-br min-h-screen bg-[#F5C11D] text-gray-800 text-center lg:text-left z-20">
+      <div className="px-6 py-32 flex justify-center items-center md:px-12 bg-gradient-to-br min-h-screen from-cyan-100 to-amber-100 text-gray-800 text-center lg:text-left z-20">
         <div className="container mx-auto xl:px-32">
           <div className="pt-12">
             <div className="lg:mt-0">
