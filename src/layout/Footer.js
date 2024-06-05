@@ -5,13 +5,15 @@ import { FaApple, FaGooglePlay, FaSteam, FaWindows, FaAmazon} from "react-icons/
 import { MdOutlineArrowRight } from "react-icons/md";
 
 const Footer = () => {
+    // const d = new Date();
+    // let year = d.getFullYear();
     return (
         <footer className="bg-white dark:bg-gray-900">
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 lg:py-8">
                 {/* <hr className="my-6 border-gray-200 sm:mx-auto dark:border-gray-700 lg:my-8" /> */}
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <div className='flex items-center gap-4'>
-                        <img className='h-[50px] transition duration-500' src={logo} alt="" srcSet="" />
+                        {/* <img className='h-[50px] transition duration-500' src={logo} alt="" srcSet="" /> */}
                         <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright© 2024 <a href="/" className="hover:underline capitalize">Cosmic Soup Ltd</a>. All Rights Reserved.</span>
                     </div>
                     
