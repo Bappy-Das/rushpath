@@ -10,6 +10,7 @@ import FeatureBannerTwo from '../components/FeatureBannerTwo';
 import AboutUsSection from '../components/AboutUsSection';
 
 const HomePage = () => {
+    window.scrollTo(0, 0);
     return (
         <>
             <HeroSection></HeroSection>
