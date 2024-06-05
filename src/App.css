@@ -1,5 +1,9 @@
 *{
-    font-family: 'Brick Sans', sans-serif;
+    /* font-family: 'Brick Sans', sans-serif; */
     /* background-color: #F5C11D; */
     letter-spacing: 0.1ch;
+}
+
+.font-class-brick{
+    font-family: 'Brick Sans', sans-serif;
 }

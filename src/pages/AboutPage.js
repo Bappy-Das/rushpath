@@ -7,7 +7,7 @@ const AboutPage = () => {
     return (
         <div>
             <Breadcump title={"About Us"}></Breadcump>
-            <div className='p-10'>
+            <div className=''>
                 <AboutUsSection></AboutUsSection>
             </div>
         </div>

@@ -3,9 +3,9 @@ import React from 'react';
 const AboutUsSection = () => {
     return (
         <div className='bg-white'>
-            <div className="mx-auto w-full max-w-screen-xl p-4 py-6 md:py-20 lg:py-20">
+            <div className="mx-auto w-full max-w-screen-xl p-4 md:py-20 lg:py-20">
                 <div className='flex justify-center flex-col gap-4'>
-                    <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold tracking-tight mb-12 text-curious-blue-500">
+                    <h1 className="text-4xl md:text-5xl xl:text-6xl font-bold font-class-brick tracking-tight mb-12 text-curious-blue-500">
                         <span className='text-[#F5C11D]'>Welcome to Rushpath: </span> Where learning is entertaining!
                     </h1>
                     <p className="text-gray-800 font-normal text-lg mt-7">
