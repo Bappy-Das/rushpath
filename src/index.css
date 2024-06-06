@@ -1,3 +1,28 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+
+:root {
+    --primary: #fcdc14;
+    --secondary: #545454;
+  }
+  .rushpath_primary_bg{
+    background-color: var(--primary)!important;
+  }
+  .rushpath_secondary_bg{
+    background-color: var(--secondary)!important;
+  }
+  .rushpath_primary{
+    color: var(--primary)!important;
+  }
+  .rushpath_secondary{
+    color: var(--secondary)!important;
+  }
+
+  .letter_spacing2{
+    letter-spacing: .2rem;
+  }
+  .letter_spacing3{
+    letter-spacing: .3rem;
+  }
