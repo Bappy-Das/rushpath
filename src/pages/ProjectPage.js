@@ -6,7 +6,7 @@ const ProjectPage = () => {
     window.scrollTo(0, 0);
     return (
         <div>
-            <Breadcump title={"Play Games"}></Breadcump>
+            <Breadcump title={"Learn C"}></Breadcump>
             <FeatureSection></FeatureSection>
         </div>
     );

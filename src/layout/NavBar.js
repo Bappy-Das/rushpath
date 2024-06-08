@@ -23,6 +23,11 @@ const NavBar = () => {
 	//change header by scrolling
 	window.addEventListener("scroll", onChangeHeader);
 
+	const toggleDrawerOnOff =()=>{
+		window.scrollTo(0, 0);
+		setIsDrawerOpen(false);
+	}
+
 	return (
 		<div className='relative'>
 			
@@ -72,25 +77,25 @@ const NavBar = () => {
         				<div className="p-4 overflow-y-auto bg-white ">
 							<ul className="space-y-2 font-medium">
         				    	<li>
-        				      		<Link to="/" className="flex items-center p-2 text-gray-900 hover:bg-[#fcdc14] rounded-lg group">
+        				      		<Link to="/" onClick={toggleDrawerOnOff} className="flex items-center p-2 text-gray-900 hover:bg-[#fcdc14] rounded-lg group">
         				        		<FaHome />
         				        		<span className="ms-3 text-xl font-medium">Home</span>
         				      		</Link>
         				    	</li>
         				    	<li>
-        				      		<Link to="/play" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#fcdc14]  group">
+        				      		<Link to="/play" onClick={toggleDrawerOnOff} className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#fcdc14]  group">
         				        		<FaPlay />
         				        		<span className="flex-1 ms-3 whitespace-nowrap text-xl font-medium">Play</span>
         				      		</Link>
         				    	</li>
         				    	<li>
-        				      		<Link to="/about" className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#fcdc14]  group">
+        				      		<Link to="/about" onClick={toggleDrawerOnOff} className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#fcdc14]  group">
         				        		<GrContactInfo />
         				        		<span className="flex-1 ms-3 whitespace-nowrap text-xl font-medium">About Us</span>
         				      		</Link>
         				    	</li>
         				    	<li>
-        				      		<Link to="/contact"  className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#fcdc14]  group">
+        				      		<Link to="/contact" onClick={toggleDrawerOnOff} className="flex items-center p-2 text-gray-900 rounded-lg hover:bg-[#fcdc14]  group">
         				        		<LuContact2 />
         				        		<span className="flex-1 ms-3 whitespace-nowrap text-xl font-medium">Contact Us</span>
         				      		</Link>

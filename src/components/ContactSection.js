@@ -2,17 +2,11 @@ import React from 'react';
 import { FaLocationDot } from "react-icons/fa6";
 import { MdEmail } from "react-icons/md";
 import { FaPhone } from "react-icons/fa";
-import { TbDeviceLandlinePhone } from "react-icons/tb";
-
-
-
-
-
 const ContactSection = () => {
     return (
         <div className='rushpath_primary_bg'>
             <div className="mx-auto w-full max-w-screen-xl p-4 py-6 md:py-20 lg:py-20">
-                <div className='flex justify-center gap-4'>
+                <div className='flex justify-center flex-col md:flex-row lg:flex-row gap-4'>
                     <div className='w-full md:w-3/5 lg:w-3/5'>
                         <form>
                             <div class="grid gap-6 mb-6 md:grid-cols-2">
@@ -36,12 +30,12 @@ const ContactSection = () => {
                         </form>
 
                     </div>
-                    <div className='w-full md:w-2/5 lg:w-2/5 ml-10'>
-                        <div className='flex items-start gap-3 mb-2 rushpath_secondary font-semibold'> <FaLocationDot className='rushpath_secondary' size={28}/> <p>Janata Tower, Level 8, Software Technology Park (STP), Kawran Bazar, Dhaka-1215, Bangladesh.</p></div>
-                        <div className='flex items-start gap-3 mb-2 rushpath_secondary font-semibold'> <FaLocationDot className='rushpath_secondary' size={20}/> <p>3A, House 364, Road 27, DOHS Mohakhali, Dhaka 1212</p></div>
-                        <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <MdEmail className='rushpath_secondary' size={17}/> info@rushpath.com</div>
+                    <div className='w-full md:w-2/5 lg:w-2/5 ml-0 md:ml-10 lg:ml-10'>
+                        <div className='flex items-start gap-3 mb-2 rushpath_secondary font-semibold'> <FaLocationDot className='rushpath_secondary' size={20}/> <p className='w-full'>Janata Tower, Level 8, Software Technology Park (STP), Kawran Bazar, Dhaka-1215, Bangladesh.</p></div>
+                        <div className='flex items-start gap-3 mb-2 rushpath_secondary font-semibold'> <FaLocationDot className='rushpath_secondary' size={20}/> <p className='w-full'>3A, House 364, Road 27, DOHS Mohakhali, Dhaka 1212</p></div>
+                        <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <MdEmail className='rushpath_secondary' size={17}/ > info@rushpath.com</div>
                         <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <MdEmail className='rushpath_secondary' size={17}/> cosmicsouplimited@gmail.com</div>
-                        <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <FaPhone className='rushpath_secondary' size={17}/> +880244810017</div>
+                        <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <FaPhone className='rushpath_secondary' size={17}/> +8801830390344</div>
                     </div>
                 </div>
             </div>
