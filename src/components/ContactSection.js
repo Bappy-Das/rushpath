@@ -37,10 +37,11 @@ const ContactSection = () => {
 
                     </div>
                     <div className='w-full md:w-2/5 lg:w-2/5 ml-10'>
-                        <div className='flex items-start gap-3 mb-2 rushpath_secondary font-semibold'> <FaLocationDot className='rushpath_secondary' size={20}/> <p>Address 3A, House 364, Road 27, <br/> DOHS Mohakhali,  Dhaka 1212</p></div>
+                        <div className='flex items-start gap-3 mb-2 rushpath_secondary font-semibold'> <FaLocationDot className='rushpath_secondary' size={28}/> <p>Janata Tower, Level 8, Software Technology Park (STP), Kawran Bazar, Dhaka-1215, Bangladesh.</p></div>
+                        <div className='flex items-start gap-3 mb-2 rushpath_secondary font-semibold'> <FaLocationDot className='rushpath_secondary' size={20}/> <p>3A, House 364, Road 27, DOHS Mohakhali, Dhaka 1212</p></div>
                         <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <MdEmail className='rushpath_secondary' size={17}/> info@rushpath.com</div>
-                        <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <FaPhone className='rushpath_secondary' size={17}/> ..........</div>
-                        <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <TbDeviceLandlinePhone className='rushpath_secondary' size={17}/> .........</div>
+                        <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <MdEmail className='rushpath_secondary' size={17}/> cosmicsouplimited@gmail.com</div>
+                        <div className='flex items-center gap-3 mb-2 rushpath_secondary font-semibold'> <FaPhone className='rushpath_secondary' size={17}/> +880244810017</div>
                     </div>
                 </div>
             </div>
