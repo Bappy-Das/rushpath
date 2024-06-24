@@ -6,6 +6,7 @@ import ProjectPage from "../pages/ProjectPage";
 import BlogPage from "../pages/BlogPage";
 import AboutPage from "../pages/AboutPage";
 import ContactPage from "../pages/ContactPage";
+import PrivacyPolicy from "../pages/PrivacyPolicy";
 
 const routes = createBrowserRouter([{
     path: "/",
@@ -34,6 +35,10 @@ const routes = createBrowserRouter([{
         {
             path: "/contact",
             element: <ContactPage />
+        },
+        {
+            path: "/privacy-policy",
+            element: <PrivacyPolicy />
         },
     ]
 }])

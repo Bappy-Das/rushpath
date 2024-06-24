@@ -1,5 +1,6 @@
 import React from 'react';
 import logo from '../assets/cosmic_soup_logo.jpeg'
+import { Link } from 'react-router-dom';
 
 const Footer = () => {
     // const d = new Date();
@@ -10,7 +11,7 @@ const Footer = () => {
                 <div className="sm:flex sm:items-center sm:justify-between">
                     <div className='flex items-center gap-4'>
                         <img className='h-[50px] transition duration-500' src={logo} alt="" srcSet="" />
-                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright© 2024 <a href="/" className="hover:underline capitalize">Cosmic Soup Ltd</a>. All Rights Reserved.</span>
+                        <span className="text-sm text-gray-500 sm:text-center dark:text-gray-400">Copyright© 2024 <a href="/" className="hover:underline capitalize">Cosmic Soup Ltd</a>. All Rights Reserved.</span><Link href="/" className='text-sm text-gray-500 sm:text-center underline hover:text-gray-100'  to="/privacy-policy">privacy policy</Link>
                     </div>
                     
                     <div className="flex mt-4 sm:justify-center sm:mt-0">
