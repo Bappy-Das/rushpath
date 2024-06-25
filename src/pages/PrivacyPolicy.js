@@ -1,6 +1,7 @@
 import React from 'react';
 
 const PrivacyPolicy = () => {
+    window.scrollTo(0, 0);
     return (
         <div className='rushpath_primary_bg'>
             <div className="mx-auto w-full max-w-screen-xl p-4 md:py-20 lg:py-28">

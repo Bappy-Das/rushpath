@@ -37,7 +37,7 @@ const routes = createBrowserRouter([{
             element: <ContactPage />
         },
         {
-            path: "/privacy-policy",
+            path: "/privacy",
             element: <PrivacyPolicy />
         },
     ]
