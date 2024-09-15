@@ -6,7 +6,8 @@ const FeatureSection = () => {
     const [totalCounter, setTotalCounter] = useState({});
     const getDownloader = async () => {
         try {
-            const url = 'http://localhost:9900/total-downloader';
+            const url = 'https://rushpath-server.onrender.com/total-downloader';
+            // const url = 'http://localhost:9900/total-downloader';
             const response = await fetch(url);
             const data = await response.json();
             setTotalCounter(data);
@@ -21,7 +22,7 @@ const FeatureSection = () => {
     // Function to make a POST request with an empty body
     const updateDownloaderCount = async () => {
         try {
-            const url = `http://localhost:9900/create-update-downloader`;
+            const url = `https://rushpath-server.onrender.com/create-update-downloader`;
             const response = await fetch(url, {
                 method: 'POST',
                 headers: {
